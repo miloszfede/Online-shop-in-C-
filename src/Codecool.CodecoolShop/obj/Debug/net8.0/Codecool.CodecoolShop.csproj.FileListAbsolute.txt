@@ -1,0 +1,57 @@
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/appsettings.Development.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/appsettings.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.staticwebassets.runtime.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.deps.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.runtimeconfig.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.pdb
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.AssemblyInfoInputs.cache
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.AssemblyInfo.cs
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.csproj.CoreCompileInputs.cache
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.RazorAssemblyInfo.cache
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.RazorAssemblyInfo.cs
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.sourcelink.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.build.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.development.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.Codecool.CodecoolShop.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.build.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/scopedcss/bundle/Codecool.CodecoolShop.styles.css
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/refint/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.pdb
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.genruntimeconfig.cache
+/Users/miloszfede/Projects/codecool-shop-1-csharp-abyczewski/src/Codecool.CodecoolShop/obj/Debug/net8.0/ref/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/appsettings.Development.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/appsettings.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.staticwebassets.runtime.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.deps.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.runtimeconfig.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/bin/Debug/net8.0/Codecool.CodecoolShop.pdb
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.AssemblyInfoInputs.cache
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.AssemblyInfo.cs
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.csproj.CoreCompileInputs.cache
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.RazorAssemblyInfo.cache
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.RazorAssemblyInfo.cs
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.build.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.development.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.Codecool.CodecoolShop.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.build.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Codecool.CodecoolShop.props
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/scopedcss/bundle/Codecool.CodecoolShop.styles.css
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/refint/Codecool.CodecoolShop.dll
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.pdb
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/Codecool.CodecoolShop.genruntimeconfig.cache
+/Users/miloszfede/Projects/Amazon Copy/src/Codecool.CodecoolShop/obj/Debug/net8.0/ref/Codecool.CodecoolShop.dll

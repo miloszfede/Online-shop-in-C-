@@ -1,0 +1,88 @@
+@model Codecool.CodecoolShop.Models.ProductListViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h1 class="my-4">Products</h1>
+    <div id="cart-count" class="float-right">
+        Cart Items: <span id="total-items">0</span>
+    </div>
+ <div class="row mb-4">
+        <div class="col-md-6">
+            <h4>Categories:</h4>
+            <div class="list-group">
+                <a href="@Url.Action("Index")" class="list-group-item list-group-item-action @(Model.SelectedCategoryId == null && Model.SelectedSupplierId == null ? "active" : "")">
+                    All Categories
+                </a>
+                @foreach (var category in Model.Categories)
+                {
+                    <a href="@Url.Action("Index", new { categoryId = category.Id })" 
+                       class="list-group-item list-group-item-action @(Model.SelectedCategoryId == category.Id ? "active" : "")">
+                        @category.Name
+                    </a>
+                }
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4>Suppliers:</h4>
+            <div class="list-group">
+                <a href="@Url.Action("Index")" class="list-group-item list-group-item-action @(Model.SelectedCategoryId == null && Model.SelectedSupplierId == null ? "active" : "")">
+                    All Suppliers
+                </a>
+                @foreach (var supplier in Model.Suppliers)
+                {
+                    <a href="@Url.Action("Index", new { supplierId = supplier.Id })" 
+                       class="list-group-item list-group-item-action @(Model.SelectedSupplierId == supplier.Id ? "active" : "")">
+                        @supplier.Name
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/@(product.Name).jpg" alt="@product.Name">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">@product.Name</a>
+                        </h4>
+                        <h5>@product.DefaultPrice.ToString("C2")</h5>
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text">Category: @product.ProductCategory.Name</p>
+                        <p class="card-text">Supplier: @product.Supplier.Name</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary add-to-cart" data-product-id="@product.Id">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.add-to-cart').click(function() {
+                var productId = $(this).data('product-id');
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "Product")',
+                    type: 'POST',
+                    data: { productId: productId },
+                    success: function(result) {
+                        if (result.success) {
+                            $('#total-items').text(result.totalItems);
+                            alert('Product added to cart!');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

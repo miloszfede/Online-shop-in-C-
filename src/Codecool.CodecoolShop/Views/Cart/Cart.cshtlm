@@ -1,0 +1,42 @@
+@model Codecool.CodecoolShop.Models.Order
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container">
+    <h1 class="my-4">Shopping Cart</h1>
+
+    @if (Model.LineItems.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.LineItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C2")</td>
+                        <td>@((item.Quantity * item.UnitPrice).ToString("C2"))</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                    <td>@Model.LineItems.Sum(item => item.Quantity * item.UnitPrice).ToString("C2")</td>
+                </tr>
+            </tfoot>
+        </table>
+    }
+
+    <a href="@Url.Action("Index", "Product")" class="btn btn-primary">Continue Shopping</a>
+</div>

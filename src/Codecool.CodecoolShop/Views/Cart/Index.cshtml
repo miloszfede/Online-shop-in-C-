@@ -1,0 +1,59 @@
+@model Codecool.CodecoolShop.Models.Order
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container">
+    <h1 class="my-4">Shopping Cart</h1>
+
+    @if (Model.LineItems.Any())
+    {
+        <form asp-action="UpdateCart" method="post">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Subtotal</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.LineItems)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>
+                                <input type="number" name="quantities[@item.ProductId]" value="@item.Quantity" min="0" class="form-control" />
+                            </td>
+                            <td>@item.UnitPrice.ToString("C2")</td>
+                            <td>@((item.Quantity * item.UnitPrice).ToString("C2"))</td>
+                            <td>
+                                <button type="submit" name="removeProductId" value="@item.ProductId" class="btn btn-danger">Remove</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                        <td>@Model.LineItems.Sum(item => item.Quantity * item.UnitPrice).ToString("C2")</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button type="submit" class="btn btn-primary">Update Cart</button>
+        </form>
+    }
+    else
+    {
+        <p>Your shopping cart is empty.</p>
+    }
+    <div class="text-right">
+            <a href="@Url.Action("Checkout", "Cart")" class="btn btn-success">Checkout</a>
+     
+
+    <a href="@Url.Action("Index", "Product")" class="btn btn-primary">Continue Shopping</a>
+</div>
